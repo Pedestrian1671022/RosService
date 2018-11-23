@@ -19,7 +19,8 @@ android {
 }
 
 dependencies {
-    implementation files('libs/square-0.2.1.jar')
+//    implementation files('libs/square-0.2.1.jar')
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'org.ros.android_core:android_15:[0.2,0.3)'
+    implementation files('libs/rosjava_custom_srv-0.1.0.jar')
 }

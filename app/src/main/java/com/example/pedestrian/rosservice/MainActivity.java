@@ -6,10 +6,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import org.ros.android.RosActivity;
-import org.ros.exception.RemoteException;
-import org.ros.exception.RosRuntimeException;
-import org.ros.exception.ServiceNotFoundException;
-import org.ros.internal.message.RawMessage;
 import org.ros.message.MessageFactory;
 import org.ros.namespace.GraphName;
 import org.ros.node.ConnectedNode;
@@ -19,13 +15,6 @@ import org.ros.node.NodeMain;
 import org.ros.node.NodeMainExecutor;
 import org.ros.node.parameter.ParameterListener;
 import org.ros.node.parameter.ParameterTree;
-import org.ros.node.service.ServiceClient;
-import org.ros.node.service.ServiceResponseListener;
-
-import square.square;
-import square.squareRequest;
-import square.squareResponse;
-import std_msgs.String;
 
 public class MainActivity extends RosActivity implements NodeMain {
 
